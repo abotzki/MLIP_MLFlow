@@ -9,8 +9,13 @@ poetry self add poetry-plugin-shell
 ```
 
 ## Step 1
+- `mlflow server --host 127.0.0.1 --port 6001` to launch tracking server on port 6001. Check the logs in the terminal.
+
+- Visit `http://127.0.0.1:6001` to verify your MLFlow Tracking Server is running.
 
 ## Step 2
+
+
 
 ## Step 3
 `mlflow models generate-dockerfile --model-uri "runs:/e7c139dc8bec4d7eaa95804d717f2688/sklearnmodel"`
